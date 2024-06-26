@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:regex/screens/HomeScreen.dart';
+import 'package:regex/screens/home_screen.dart';
+import 'package:regex/screens/regex_login_screen.dart';
+import 'package:regex/screens/regex_screen.dart';
+import 'package:regex/utils/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,16 +11,23 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: Theme.of(context)
+            .colorScheme
+            .copyWith(primary: Colors.purpleAccent),
+        primaryColor: Colors.purpleAccent,
         useMaterial3: true,
+        appBarTheme: const AppBarTheme(color: Colors.purpleAccent),
       ),
-      home: const Homescreen(),
+      routes: {
+        Routes.HOME: (context) => const Homescreen(),
+        Routes.REGEX: (context) => const RegexScreen(),
+        Routes.REGEX_login: (context) => const RegexLoginScreen(),
+      },
     );
   }
 }
