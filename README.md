@@ -26,7 +26,7 @@ Todas as validações estão na pasta [lib/models/funcoes.dart](https://github.c
 - ``iPad = Emulador iPadOS``
 
 ### Contribuidores
-[Arthur Rodrigues](https://github.com/ArthurRCastilho)
-[Wisley Cesar](https://github.com/wisley-cesar)
+- [Arthur Rodrigues](https://github.com/ArthurRCastilho)<br>
+- [Wisley Cesar](https://github.com/wisley-cesar)<br>
 
 <img src="./assets/imgs/IFGoiano.png" alt="Logo IFGoiano">
