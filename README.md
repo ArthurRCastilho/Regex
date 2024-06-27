@@ -25,4 +25,8 @@ Todas as validações estão na pasta [lib/models/funcoes.dart](https://github.c
 - ``Android Studio = Emulador Android``
 - ``iPad = Emulador iPadOS``
 
+### Contribuidores
+[Arthur Rodrigues](https://github.com/ArthurRCastilho)
+[Wisley Cesar](https://github.com/wisley-cesar)
+
 <img src="./assets/imgs/IFGoiano.png" alt="Logo IFGoiano">
